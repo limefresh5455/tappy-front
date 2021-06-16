@@ -1,0 +1,48 @@
+.edit-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.edit-social-delete__wrapper {
+  max-width: 50px;
+}
+.edit-social-icon {
+  height: 38px;
+}
+
+.edit-social-delete__wrapper {
+  span {
+    font-size: 25px;
+    margin-left: 0.25rem;
+  }
+}
+.edit-social-title {
+  position: relative;
+  left: 10px;
+}
+
+.edit-social-icon__wrapper {
+  position: relative;
+  left: 10px;
+}
+
+.edit-social-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.edit-social-row {
+  display: flex;
+  margin-top: 0.25rem;
+  width: 325px;
+}
+
+.edit-social-arrows {
+  position: relative;
+  top: 10px;
+}
+
+.edit-social-input__wrapper {
+  width: 100%;
+}

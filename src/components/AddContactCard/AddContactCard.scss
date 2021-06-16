@@ -1,0 +1,63 @@
+.add-contact-card-modal {
+  display: flex;
+  flex-direction: column;
+
+  .modal-dialog {
+    margin-top: 19%;
+    background-color: #272727;
+    border: 3px solid #5258ec !important;
+  }
+
+  .modal-header {
+    background-color: #272727;
+    border: none;
+    padding: 0.25rem 1rem !important;
+    .close {
+      color: white;
+    }
+  }
+  .add-contact-card__modal {
+    background-color: #272727;
+    color: white;
+  }
+  .add-contact-card__modal__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    .form-control {
+      width: 48%;
+      margin: 1rem 0;
+      border-radius: 0;
+    }
+
+    .contact-card-secure-header {
+      font-size: 20px;
+    }
+
+    .contact-card-digit-prompt {
+      font-size: 14px;
+    }
+
+    button {
+      width: 60%;
+      background-color: #5258ec;
+      border-radius: 10px;
+    }
+  }
+}
+
+.contact-card__modal {
+  background-color: #272727;
+  color: white;
+}
+
+.contact-card__entry {
+  label {
+    b {
+      color: white !important;
+    }
+  }
+}

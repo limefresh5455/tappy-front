@@ -1,0 +1,13 @@
+.not-found {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  &__subheader {
+  }
+}

@@ -1,0 +1,73 @@
+.register-page {
+  margin: 0 5%;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+
+  &-description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+    &-title {
+      font-size: 26px;
+      font-weight: 500;
+      color: white;
+    }
+
+    &-subtitle {
+      font-size: 14px;
+      color: white;
+    }
+  }
+
+  .register-form {
+    input {
+      background-color: #464646;
+      border: 2px solid #6200ee !important;
+    }
+  }
+
+  label {
+    margin-bottom: 0rem !important;
+    color: #000000 60% !important;
+  }
+  input {
+    height: 3rem;
+  }
+
+  .register-page-create-account__btn__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .register-create-account {
+      background-color: #567df4;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 0;
+      border-radius: 12px;
+      text-decoration: none;
+      width: 48%;
+      margin-right: 0.75rem;
+
+      svg {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .disclaimer {
+    padding-top: 0.75rem;
+
+    .disclaimer-content {
+      color: white;
+      font-size: 14px;
+
+      .italic {
+        font-style: italic;
+      }
+    }
+  }
+}

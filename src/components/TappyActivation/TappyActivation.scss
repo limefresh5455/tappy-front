@@ -1,0 +1,45 @@
+.tappy-activation {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &__subheader {
+    font-size: 13px;
+  }
+
+  &__serial-number {
+    margin-top: 1rem;
+    font-size: 13px;
+    color: #848484;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+    button {
+      margin-bottom: 2;
+      width: 80%;
+      margin-bottom: 2rem;
+      height: 55px;
+      border-radius: 10px;
+    }
+  }
+
+  &__new-account {
+    background-color: #567df4 !important;
+  }
+
+  &__existing-account {
+    background-color: #555c72 !important;
+    border: 3px solid #567df4 !important;
+  }
+}

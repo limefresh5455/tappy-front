@@ -1,0 +1,20 @@
+.profile-social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  color: white;
+  text-decoration: none !important;
+  padding: 1.25rem 1.5rem;
+
+  &-img {
+    width: 50px;
+  }
+
+  &-username__wrapper {
+    margin-left: 1rem;
+    span {
+      font-size: 22px;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,157 @@
+.add-new-tappy {
+  &__modal {
+    .modal-dialog {
+      margin: 32% 0.5rem;
+      border: 3px solid #5258ec !important;
+      border-radius: 25px !important;
+    }
+
+    .modal-header {
+      background-color: #141414;
+      border: none;
+      padding: 0.25rem 1rem;
+      border-radius: 20px 20px 0px 0px;
+
+      button {
+        color: white;
+        opacity: 1;
+      }
+    }
+
+    .modal-content {
+      border-radius: 25px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    input {
+      border: 2px solid #5258ec;
+      background-color: #464646;
+    }
+
+    label {
+      margin-bottom: 0.25rem;
+    }
+  }
+
+  .modal-dialog {
+    background-color: #141414;
+  }
+}
+
+.add-new-tappy {
+  &__header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.add-new-tappy-content {
+  padding: 1.5rem;
+  background-color: #141414;
+  color: white;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.add-new-tappy-serial-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+
+  button {
+    height: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 6px;
+    background-color: #5258ec;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: none !important;
+
+    svg {
+      width: 1.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+  label {
+    margin-bottom: 0.25rem;
+  }
+  .form-group {
+    width: 48%;
+  }
+}
+
+.your-tappys {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+  }
+
+  .tappy-card-entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+
+    svg {
+      background-color: black;
+      margin-left: 3rem;
+    }
+  }
+
+  .purchase-tappy a {
+    text-decoration: none;
+    color: #6c757d !important;
+  }
+}
+
+.remove-tappy-button__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    margin: 0 1rem;
+    width: 6rem;
+    text-transform: uppercase;
+    padding: 0 0.25rem;
+    letter-spacing: 1px;
+  }
+
+  .remove-tappy-btn {
+    background-color: #eb5757;
+    border: 1px solid #eb5757;
+  }
+
+  .cancel-tappy-btn {
+    background-color: white;
+    border: 1px solid #575757;
+    color: #575757;
+  }
+}
+
+.remove-tappy {
+  &__wrapper {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 6px;
+
+    span {
+      font-size: 14px;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

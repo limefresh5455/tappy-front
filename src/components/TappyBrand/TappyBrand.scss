@@ -1,0 +1,22 @@
+.tappy-brand {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 2rem 0;
+  &-title {
+    &__wrapper {
+      font-size: 70px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      color: #ffffff;
+    }
+    &-tm {
+      font-size: 24px;
+      margin-top: 2.25rem;
+    }
+  }
+  &-subtitle {
+    color: #7b7f9e;
+  }
+}

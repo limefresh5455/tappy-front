@@ -1,0 +1,66 @@
+@import "../../styles/palette.scss";
+
+.main-header {
+  background-color: $primary-purple;
+}
+
+.navbar {
+  justify-content: initial !important;
+}
+
+.navbar-brand {
+  margin-left: 32%;
+}
+
+.navbar-toggler {
+  border: none !important;
+  margin-right: 25%;
+}
+
+.main-header {
+  .hamburger-icon {
+    fill: white;
+    width: 26px;
+    height: 24px;
+  }
+}
+
+.openNavbar {
+  position: fixed;
+  right: inherit;
+  z-index: 1100;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+  background-color: $primary-purple;
+
+  .navbar__content {
+    .navbar__list {
+      padding: 2rem;
+      height: 100%;
+      box-sizing: border-box;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      height: 70vh;
+
+      a {
+        margin-bottom: 2rem;
+        font-size: 20px;
+        color: white !important;
+      }
+    }
+
+    .navbar__footer {
+      height: 30vh;
+      padding: 2rem;
+
+      button {
+        width: 10rem;
+        color: #5258ec;
+        background-color: white;
+        height: 3rem;
+      }
+    }
+  }
+}

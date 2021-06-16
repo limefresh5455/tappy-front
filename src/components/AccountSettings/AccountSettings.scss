@@ -1,0 +1,75 @@
+.account-settings {
+  padding: 3rem 2rem;
+
+  &__header {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &__user-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+
+    &__title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 50%;
+
+      span {
+        font-size: 14px !important;
+      }
+    }
+    &__btn {
+      display: flex;
+      justify-content: flex-end;
+      width: 50%;
+
+      button {
+        font-size: 14px;
+        border-radius: 12px;
+        background-color: #464646;
+        height: 2.5rem;
+        border: solid 2px #5258ec;
+      }
+    }
+  }
+
+  &__account-form {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+
+    input {
+      margin-bottom: 1rem;
+    }
+
+    button {
+      margin-top: 0.5rem;
+      font-size: 14px;
+      width: 10rem;
+      border-radius: 10px;
+      height: 3rem;
+      background-color: #5258ec;
+    }
+  }
+
+  &__password-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      font-size: 14px;
+    }
+
+    button {
+      font-size: 14px;
+      border-radius: 12px;
+      background-color: #464646;
+      height: 2.5rem;
+      border: solid 2px #5258ec;
+    }
+  }
+}

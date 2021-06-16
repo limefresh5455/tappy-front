@@ -1,0 +1,156 @@
+.edit-contact-card__form {
+  .add-information-field__btn {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #5258ec;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none !important;
+
+    svg {
+      margin-right: 12%;
+    }
+  }
+
+  .form-group {
+    label {
+      margin-bottom: 0.1rem;
+    }
+  }
+}
+
+.edit-contact-card-btn__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: #272727;
+
+  button {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #5258ec;
+    border: none !important;
+  }
+}
+
+.edit-contact-card-content {
+  padding: 0rem 2rem;
+  padding-top: 1rem;
+  background-color: #272727;
+  color: white;
+
+  input {
+    background-color: #464646;
+    color: white;
+    border: 2px solid #5258ec;
+  }
+}
+
+.remove-field {
+  color: white;
+  border-radius: 50%;
+}
+
+.info-field-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  svg {
+    margin-left: 10px;
+  }
+}
+
+.edit-contact-card-security {
+  display: flex;
+  flex-direction: column;
+
+  .security-optional {
+    margin-left: 1rem;
+    font-size: 12px;
+  }
+
+  .secure-contact-card {
+    font-size: 14px;
+  }
+}
+
+.edit-contact-card {
+  .modal-header {
+    background-color: #272727;
+    padding: 0.25rem 1rem;
+    border: none;
+
+    button {
+      color: white;
+      opacity: 1;
+    }
+  }
+
+  .modal-content {
+    border: 3px solid #5258ec;
+  }
+}
+
+.optional-security-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+
+  input {
+    width: 50%;
+    border-radius: 0;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+}
+
+.toggle-container {
+  align-items: stretch;
+
+  .active {
+    color: rgba(55, 255, 171, 0.92);
+  }
+  span {
+    font-size: 0.85rem;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 39px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  .switch::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: white;
+    top: 1px;
+    left: 1px;
+    transition: all 0.3s;
+  }
+
+  .checkbox:checked + .switch::after {
+    left: 20px;
+  }
+  .checkbox:checked + .switch {
+    background-color: rgba(55, 255, 171, 0.92);
+  }
+  .checkbox {
+    display: none;
+  }
+}

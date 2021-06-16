@@ -1,0 +1,16 @@
+.profile-basic-info {
+  width: 66%;
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-label {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+.social-items__container {
+  background-color: #323232;
+}
