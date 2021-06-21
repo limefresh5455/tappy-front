@@ -32,7 +32,7 @@ export const Login: React.FC<Props> = (props) => {
       email: username,
       password
     }
-    console.log(proxy);
+
     const response = await axios.post(`${proxy}/api/user/login`, data);
     if (response.data.access_token) {
       localStorage.setItem('accessToken', response.data.access_token);
