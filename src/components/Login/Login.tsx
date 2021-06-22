@@ -33,7 +33,7 @@ export const Login: React.FC<Props> = (props) => {
       password
     }
 
-    const response = await axios.post(`${proxy}/api/user/login`, data);
+    const response = await axios.post(`http://3.142.144.138/tappy-back/server.php/api/user/login`, data);
     if (response.data.access_token) {
       localStorage.setItem('accessToken', response.data.access_token);
       props.checkUserSession();
