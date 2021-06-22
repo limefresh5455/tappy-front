@@ -4,8 +4,8 @@ import { schema } from './schema';
 
 
 
-const { TappyBack } = initSchema(schema);
+const { TAPPYBACK } = initSchema(schema);
 
 export {
-  TappyBack
+  TAPPYBACK
 };

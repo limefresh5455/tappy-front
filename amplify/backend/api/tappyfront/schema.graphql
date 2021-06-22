@@ -1,3 +1,0 @@
-type TappyBack @model @auth(rules: [{allow: public}]) {
-  id: ID!
-}

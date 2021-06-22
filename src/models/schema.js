@@ -1,7 +1,7 @@
 export const schema = {
     "models": {
-        "TappyBack": {
-            "name": "TappyBack",
+        "TAPPYBACK": {
+            "name": "TAPPYBACK",
             "fields": {
                 "id": {
                     "name": "id",
@@ -28,7 +28,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "TappyBacks",
+            "pluralName": "TAPPYBACKS",
             "attributes": [
                 {
                     "type": "model",
@@ -55,5 +55,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "8d5b9428fbccce568a34d4a2b51bbe5d"
+    "version": "99b5425c3c48c77bccb09faef59537b5"
 };

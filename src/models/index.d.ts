@@ -4,10 +4,10 @@ import { ModelInit, MutableModel, PersistentModelConstructor } from "@aws-amplif
 
 
 
-export declare class TappyBack {
+export declare class TAPPYBACK {
   readonly id: string;
   readonly createdAt?: string;
   readonly updatedAt?: string;
-  constructor(init: ModelInit<TappyBack>);
-  static copyOf(source: TappyBack, mutator: (draft: MutableModel<TappyBack>) => MutableModel<TappyBack> | void): TappyBack;
+  constructor(init: ModelInit<TAPPYBACK>);
+  static copyOf(source: TAPPYBACK, mutator: (draft: MutableModel<TAPPYBACK>) => MutableModel<TAPPYBACK> | void): TAPPYBACK;
 }
